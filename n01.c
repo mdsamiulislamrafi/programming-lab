@@ -12,10 +12,10 @@ int main(){
         if(i%3 == 0 && i%5 == 0){
             printf("%d FrizzBuzz\n",i);
         }
-        else if(i%3 == 0 && i%5 !=0){
+        else if(i%3 == 0){
             printf("%d Frizz\n",i);
         }
-        else if(i%5 ==0 && i%3 !=0){
+        else if(i%5 ==0){
             printf("%d Buzz\n",i);
         }
         else{
@@ -24,4 +24,5 @@ int main(){
              
     }
     return 0;
+
 }
